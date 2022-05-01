@@ -13,4 +13,8 @@ app.get("/get", (req, res) => {
 	res.send(req.body);
 });
 
+app.get("/getForm", (req, res) => {
+	res.render("getForm");
+});
+
 module.exports = app;
